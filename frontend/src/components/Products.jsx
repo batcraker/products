@@ -18,6 +18,10 @@ export function Products() {
           name="description"
           content="This Page is an example of simple CRUD"
         />
+        <meta name="og:title" content="Products"/>
+        <meta name="og:description" content="This page is an example of a simple crud with login and register, using mongodb as database" />
+        <meta name="og:url" content="https://sore-blue-panther-shoe.cyclic.app/"/>
+        <meta name="og:image" content="https://sore-blue-panther-shoe.cyclic.app/static/vite.svg"/>
       </Helmet>
       <div className="products">
         {user ? (
