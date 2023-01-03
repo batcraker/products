@@ -1,0 +1,22 @@
+.nav{
+    width: 100%;
+    background-color: #dddddd;
+    margin-bottom: 20px;
+}
+
+.main-menu{
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.main-menu li{
+    list-style: none;
+}
+
+.main-menu li a{
+    text-decoration: none;
+}
